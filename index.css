@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+* {
+  font-family: "Roboto Mono", monospace;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+#display {
+  padding: 10px;
+}
+#label {
+  font-weight: 600;
+  height: 50%;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+#label2 {
+  width: 100%;
+  font-weight: 600;
+  height: 50%;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.container {
+  padding: 10px;
+  background-color: white;
+  width: fit-content;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.container table {
+  margin: 0;
+  padding: 0;
+}
+.container table tr {
+  margin: 0;
+  padding: 0;
+}
+.container table tr td {
+  margin: 0;
+  padding: 0;
+}
+.container table tr td button {
+  height: 70px;
+  width: 70px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+.container table tr td button:hover {
+  background-color: #8d8d8d;
+  transition: 0.5s;
+}
+#equal {
+  height: 135px;
+  border-radius: 10px;
+}
+#c {
+  background-color: royalblue;
+}
+#c:hover {
+  transition: 0.5s;
+  background-color: rgb(44, 71, 150);
+}
+#divis {
+  background-color: saddlebrown;
+}
+#divis:hover {
+  transition: 0.5s;
+  background-color: rgb(88, 44, 13);
+}
+#multi {
+  background-color: salmon;
+}
+#multi:hover {
+  transition: 0.5s;
+  background-color: rgb(121, 63, 57);
+}
+#del {
+  background-color: slateblue;
+}
+#del:hover {
+  transition: 0.5s;
+  background-color: rgb(58, 49, 112);
+}
+.aa {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.bb {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.aa:hover {
+  transform: scale(1.5, 1.5);
+  transition: 0.5s;
+}
+.bb:hover {
+  transition: 0.5s;
+  transform: scale(1.5, 1.5);
+}
